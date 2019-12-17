@@ -9,6 +9,7 @@ export class HomePage {
   constructor(public actionRegisterType:ActionSheetController) {}
   async clickRegister(){
     const actionSheet = await this.actionRegisterType.create({
+      cssClass:'actionClass',
       header: 'Register Options', 
       buttons: [{
         text: 'Gmail',
