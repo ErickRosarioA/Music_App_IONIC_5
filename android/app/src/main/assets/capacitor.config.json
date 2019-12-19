@@ -1,0 +1,8 @@
+{
+  "appId": "com.urbanApp.app",
+  "appName": "UrbanApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {}
+}
